@@ -12,5 +12,9 @@ set password = "NewPassword";
 update lesson_22.user
 set password = "Password for Lena"
 where id = 4;
-delete from lesson_22.user
-where id = 2;
+update lesson_22.user
+set password = "Password for Lena"
+where id = 4;
+update lesson_22.user
+set password = "Password for Lena"
+where id = 4;
